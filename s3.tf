@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "vinod77.flm77.moonobucket"
+  bucket = "vinod777.flm77.moonobucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
