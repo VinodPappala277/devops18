@@ -1,6 +1,5 @@
 resource "aws_security_group" "web_server" {
   name_prefix = "web-server"
-  vpc_id = aws_vpc.main.id
 
   ingress {
     from_port   = 22
